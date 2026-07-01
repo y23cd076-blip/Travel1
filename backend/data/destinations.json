@@ -1,0 +1,119 @@
+{
+  "goa": {
+    "name": "Goa",
+    "state": "Goa",
+    "hours_per_day": 8,
+    "attractions": [
+      {"id": "goa_1", "name": "Baga Beach", "tags": ["beaches", "nightlife"], "cost": 0, "duration_hours": 3, "rating": 4.3},
+      {"id": "goa_2", "name": "Calangute Beach", "tags": ["beaches"], "cost": 0, "duration_hours": 2.5, "rating": 4.1},
+      {"id": "goa_3", "name": "Fort Aguada", "tags": ["history"], "cost": 50, "duration_hours": 2, "rating": 4.2},
+      {"id": "goa_4", "name": "Dudhsagar Falls Trek", "tags": ["adventure"], "cost": 600, "duration_hours": 5, "rating": 4.5},
+      {"id": "goa_5", "name": "Anjuna Flea Market", "tags": ["food", "nightlife"], "cost": 0, "duration_hours": 2, "rating": 4.0},
+      {"id": "goa_6", "name": "Basilica of Bom Jesus", "tags": ["history"], "cost": 0, "duration_hours": 1.5, "rating": 4.4},
+      {"id": "goa_7", "name": "Scuba Diving at Grande Island", "tags": ["adventure", "beaches"], "cost": 2500, "duration_hours": 4, "rating": 4.6},
+      {"id": "goa_8", "name": "Tito's Lane Club Hopping", "tags": ["nightlife"], "cost": 1200, "duration_hours": 4, "rating": 4.0}
+    ],
+    "restaurants": [
+      {"id": "goa_r1", "name": "Britto's Baga", "cuisine": "Goan Seafood", "cost_per_person": 700, "rating": 4.3, "tags": ["food", "beaches"]},
+      {"id": "goa_r2", "name": "Fisherman's Wharf", "cuisine": "Seafood", "cost_per_person": 900, "rating": 4.4, "tags": ["food"]},
+      {"id": "goa_r3", "name": "Vinayak Family Restaurant", "cuisine": "Local Goan", "cost_per_person": 350, "rating": 4.2, "tags": ["food"]},
+      {"id": "goa_r4", "name": "Curlies Beach Shack", "cuisine": "Continental", "cost_per_person": 600, "rating": 4.0, "tags": ["food", "nightlife"]},
+      {"id": "goa_r5", "name": "Mum's Kitchen", "cuisine": "Goan", "cost_per_person": 800, "rating": 4.5, "tags": ["food", "history"]}
+    ],
+    "hotels": [
+      {"id": "goa_h1", "name": "Zostel Goa", "cost_per_night": 900, "rating": 4.1},
+      {"id": "goa_h2", "name": "Treebo Trend Sea View", "cost_per_night": 2200, "rating": 4.0},
+      {"id": "goa_h3", "name": "Taj Fort Aguada", "cost_per_night": 9500, "rating": 4.6}
+    ]
+  },
+  "manali": {
+    "name": "Manali",
+    "state": "Himachal Pradesh",
+    "hours_per_day": 8,
+    "attractions": [
+      {"id": "man_1", "name": "Solang Valley", "tags": ["adventure"], "cost": 500, "duration_hours": 4, "rating": 4.4},
+      {"id": "man_2", "name": "Rohtang Pass", "tags": ["adventure"], "cost": 300, "duration_hours": 5, "rating": 4.5},
+      {"id": "man_3", "name": "Hadimba Temple", "tags": ["history"], "cost": 0, "duration_hours": 1.5, "rating": 4.3},
+      {"id": "man_4", "name": "Old Manali Cafes", "tags": ["food", "nightlife"], "cost": 0, "duration_hours": 2, "rating": 4.2},
+      {"id": "man_5", "name": "River Rafting Beas", "tags": ["adventure"], "cost": 800, "duration_hours": 2, "rating": 4.3},
+      {"id": "man_6", "name": "Vashisht Hot Springs", "tags": ["history", "adventure"], "cost": 0, "duration_hours": 2, "rating": 4.0}
+    ],
+    "restaurants": [
+      {"id": "man_r1", "name": "Johnson's Cafe", "cuisine": "Continental", "cost_per_person": 600, "rating": 4.4, "tags": ["food"]},
+      {"id": "man_r2", "name": "Cafe 1947", "cuisine": "Israeli/Continental", "cost_per_person": 550, "rating": 4.3, "tags": ["food", "nightlife"]},
+      {"id": "man_r3", "name": "Mount View Restaurant", "cuisine": "North Indian", "cost_per_person": 400, "rating": 4.1, "tags": ["food"]}
+    ],
+    "hotels": [
+      {"id": "man_h1", "name": "Zostel Manali", "cost_per_night": 800, "rating": 4.2},
+      {"id": "man_h2", "name": "Snow Valley Resorts", "cost_per_night": 3200, "rating": 4.3},
+      {"id": "man_h3", "name": "The Himalayan", "cost_per_night": 8000, "rating": 4.7}
+    ]
+  },
+  "jaipur": {
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "hours_per_day": 8,
+    "attractions": [
+      {"id": "jai_1", "name": "Amber Fort", "tags": ["history"], "cost": 200, "duration_hours": 3, "rating": 4.6},
+      {"id": "jai_2", "name": "Hawa Mahal", "tags": ["history"], "cost": 50, "duration_hours": 1, "rating": 4.4},
+      {"id": "jai_3", "name": "City Palace", "tags": ["history"], "cost": 300, "duration_hours": 2.5, "rating": 4.5},
+      {"id": "jai_4", "name": "Chokhi Dhani Cultural Village", "tags": ["food", "history"], "cost": 900, "duration_hours": 4, "rating": 4.3},
+      {"id": "jai_5", "name": "Nahargarh Fort Sunset", "tags": ["history", "adventure"], "cost": 100, "duration_hours": 2, "rating": 4.4},
+      {"id": "jai_6", "name": "Johari Bazaar Shopping", "tags": ["food"], "cost": 0, "duration_hours": 2, "rating": 4.0}
+    ],
+    "restaurants": [
+      {"id": "jai_r1", "name": "Laxmi Misthan Bhandar", "cuisine": "Rajasthani", "cost_per_person": 300, "rating": 4.3, "tags": ["food"]},
+      {"id": "jai_r2", "name": "Suvarna Mahal", "cuisine": "Royal Rajasthani", "cost_per_person": 2000, "rating": 4.6, "tags": ["food", "history"]},
+      {"id": "jai_r3", "name": "Tapri Central", "cuisine": "Cafe", "cost_per_person": 350, "rating": 4.1, "tags": ["food"]}
+    ],
+    "hotels": [
+      {"id": "jai_h1", "name": "Zostel Jaipur", "cost_per_night": 850, "rating": 4.2},
+      {"id": "jai_h2", "name": "Hotel Pearl Palace", "cost_per_night": 2500, "rating": 4.5},
+      {"id": "jai_h3", "name": "Rambagh Palace", "cost_per_night": 18000, "rating": 4.8}
+    ]
+  },
+  "kerala": {
+    "name": "Kerala (Kochi & Munnar)",
+    "state": "Kerala",
+    "hours_per_day": 8,
+    "attractions": [
+      {"id": "ker_1", "name": "Munnar Tea Gardens", "tags": ["adventure", "history"], "cost": 100, "duration_hours": 3, "rating": 4.6},
+      {"id": "ker_2", "name": "Alleppey Backwater Houseboat", "tags": ["beaches", "adventure"], "cost": 6000, "duration_hours": 6, "rating": 4.7},
+      {"id": "ker_3", "name": "Fort Kochi Walk", "tags": ["history"], "cost": 0, "duration_hours": 2, "rating": 4.3},
+      {"id": "ker_4", "name": "Eravikulam National Park", "tags": ["adventure"], "cost": 150, "duration_hours": 3, "rating": 4.4},
+      {"id": "ker_5", "name": "Kathakali Show", "tags": ["history", "food"], "cost": 400, "duration_hours": 2, "rating": 4.5}
+    ],
+    "restaurants": [
+      {"id": "ker_r1", "name": "Dhe Puttu", "cuisine": "Kerala", "cost_per_person": 400, "rating": 4.3, "tags": ["food"]},
+      {"id": "ker_r2", "name": "Kayees Rahmathulla Hotel", "cuisine": "Malabar Biryani", "cost_per_person": 300, "rating": 4.4, "tags": ["food"]},
+      {"id": "ker_r3", "name": "Fort House Restaurant", "cuisine": "Seafood", "cost_per_person": 700, "rating": 4.2, "tags": ["food", "beaches"]}
+    ],
+    "hotels": [
+      {"id": "ker_h1", "name": "Zostel Kochi", "cost_per_night": 900, "rating": 4.1},
+      {"id": "ker_h2", "name": "Tea County Munnar", "cost_per_night": 4500, "rating": 4.4},
+      {"id": "ker_h3", "name": "Kumarakom Lake Resort", "cost_per_night": 15000, "rating": 4.7}
+    ]
+  },
+  "hyderabad": {
+    "name": "Hyderabad",
+    "state": "Telangana",
+    "hours_per_day": 8,
+    "attractions": [
+      {"id": "hyd_1", "name": "Charminar", "tags": ["history"], "cost": 0, "duration_hours": 1.5, "rating": 4.4},
+      {"id": "hyd_2", "name": "Golconda Fort", "tags": ["history", "adventure"], "cost": 25, "duration_hours": 3, "rating": 4.5},
+      {"id": "hyd_3", "name": "Ramoji Film City", "tags": ["adventure", "food"], "cost": 1500, "duration_hours": 6, "rating": 4.3},
+      {"id": "hyd_4", "name": "Hussain Sagar Boating", "tags": ["adventure"], "cost": 200, "duration_hours": 1.5, "rating": 4.1},
+      {"id": "hyd_5", "name": "Laad Bazaar Shopping", "tags": ["food", "history"], "cost": 0, "duration_hours": 2, "rating": 4.2}
+    ],
+    "restaurants": [
+      {"id": "hyd_r1", "name": "Paradise Biryani", "cuisine": "Hyderabadi", "cost_per_person": 400, "rating": 4.3, "tags": ["food"]},
+      {"id": "hyd_r2", "name": "Bawarchi", "cuisine": "Hyderabadi", "cost_per_person": 350, "rating": 4.2, "tags": ["food"]},
+      {"id": "hyd_r3", "name": "Shah Ghouse Cafe", "cuisine": "Hyderabadi", "cost_per_person": 300, "rating": 4.1, "tags": ["food"]}
+    ],
+    "hotels": [
+      {"id": "hyd_h1", "name": "Zostel Hyderabad", "cost_per_night": 800, "rating": 4.0},
+      {"id": "hyd_h2", "name": "Treebo Trend Elite", "cost_per_night": 2000, "rating": 4.1},
+      {"id": "hyd_h3", "name": "Taj Falaknuma Palace", "cost_per_night": 20000, "rating": 4.8}
+    ]
+  }
+}
